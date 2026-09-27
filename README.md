@@ -15,3 +15,12 @@ Web sitesi, halka açık alanlar ve yayın. This repository documents module own
 [All modules and flows](MODULE_MAP.md) · [Back to MUBA ecosystem](https://github.com/MUBA-RH/MUBA/tree/preview/ecosystem-navigation-20260928)
 
 These are documentation boundaries, not separate deployed services. Module names alone do not prove a feature is live.
+
+---
+
+## Existing repository guidance
+
+
+Architecture and documentation boundary for web. Active production runtime stays in [MUBA](https://github.com/MUBA-RH/MUBA); this repository is not a separately deployed application.
+
+See [MODULE_MAP.md](MODULE_MAP.md) and [LIFECYCLE.md](LIFECYCLE.md). Do not copy credentials, environment values, secrets, or production code here.
